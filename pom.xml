@@ -25,4 +25,24 @@ You should have received a copy of the GNU Lesser General Public License along w
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.cloudfoundry</groupId>
+				<artifactId>cf-maven-plugin</artifactId>
+				<version>1.0.0.M3</version>
+				<configuration>
+					<server>cloudfoundry.com</server>
+					<target>https://api.cloudfoundry.com</target>
+					<url>javaeesample.cloudfoundry.com</url>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>repository.springframework.maven.milestone</id>
+			<url>http://maven.springframework.org/milestone</url>
+		</pluginRepository>
+	</pluginRepositories>
 </project>
