@@ -16,7 +16,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 	<groupId>br.eti.fernandoribeiro.sample</groupId>
 	<artifactId>javaeesample-cloudfoundry</artifactId>
 	<packaging>war</packaging>
-	<version>1.0</version>
+	<version>1.1</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
